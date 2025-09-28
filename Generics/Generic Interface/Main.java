@@ -3,8 +3,8 @@ public class Main
     public static void main(String[] args)
     {
         Client<Integer,Integer> client=new Client<>(1,2);
-        System.out.println("Printing Key: "+client.getKey());
-        System.out.println("Printing Value: "+client.getValue());
+        System.out.println("We are printing Key: "+client.getKey());
+        System.out.println("We are printing Value: "+client.getValue());
 
         System.out.println();
 
