@@ -21,7 +21,7 @@ public class Custom_Exception
     }
     static void validate(int age)
     {
-        throw new ArithmeticException("Age is invalid");
+        throw new ArithmeticException("AGE IS INVALID");
     }
 }
 
